@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.loader {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.tri1,
+.tri2,
+.tri3,
+.tri4,
+.tri5 {
+  height: 0;
+  width: 0;
+  border-bottom: 100px solid #4968fc;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  position: relative;
+  animation: load 1s infinite;
+  transform-origin: bottom;
+}
+
+@keyframes load {
+  90% {
+    transform: scaleY(0);
+  }
+}
+
+.tri1 {
+  border-bottom-color: #000082;
+}
+
+.tri2 {
+  border-bottom: 100px solid #000092;
+  bottom: 100px;
+  left: 40px;
+  animation-delay: 0.1s;
+}
+
+.tri3 {
+  border-bottom: 100px solid #0000b3;
+  bottom: 200px;
+  left: 80px;
+  animation-delay: 0.2s;
+}
+
+.tri4 {
+  border-bottom: 100px solid #0e0eff;
+  bottom: 300px;
+  left: 120px;
+  animation-delay: 0.3s;
+}
+
+.tri5 {
+  border-bottom: 100px solid #3737ff;
+  bottom: 400px;
+  left: 160px;
+  animation-delay: 0.4s;
+}

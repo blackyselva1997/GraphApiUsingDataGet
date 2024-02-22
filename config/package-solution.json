@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "out-look-calendar-client-side-solution",
+    "id": "2a24e41e-8147-4490-bdcb-20de5c598d87",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "OutLookCalendar description"
+      },
+      "longDescription": {
+        "default": "OutLookCalendar description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "out-look-calendar Feature",
+        "description": "The feature that activates elements of the out-look-calendar solution.",
+        "id": "a35ffd95-b2f8-40dd-a5af-a0e711cabafe",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/out-look-calendar.sppkg"
+  }
+}

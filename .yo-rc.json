@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "out-look-calendar",
+    "libraryId": "2a24e41e-8147-4490-bdcb-20de5c598d87",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "OutLookCalendar",
+    "solutionShortDescription": "OutLookCalendar description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

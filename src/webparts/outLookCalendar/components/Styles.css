@@ -1,0 +1,22 @@
+#workbenchPageContent {
+    max-width: 100%;
+}
+
+.content_3f3fd3c2,
+.CanvasZone {
+    padding: 0 !important;
+    max-width: 100% !important;
+}
+
+.spAppAndPropertyPanelContainer .sp-appBar {
+    min-width: 0;
+}
+
+.ms-DetailsList-headerWrapper {
+    position: sticky;
+}
+
+.ms-DetailsList-contentWrapper {
+    overflow: scroll;
+    height: 66vh;
+}
