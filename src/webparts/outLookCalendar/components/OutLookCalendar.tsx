@@ -259,8 +259,6 @@ const OutLookCalendar = (props: any) => {
     });
   };
 
-  console.log("All USers", AllUsers);
-
   // Calendar data bind
   const getEvents = (items: any) => {
     let _calendarData: IEvent[] = [];
